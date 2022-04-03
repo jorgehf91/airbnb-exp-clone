@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+/* Navbar Section */
+nav {
+    /*width: 550px;*/
+    height: 70px;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.9px 7.4px rgba(0, 0, 0, 0.1) ;
+}
+
+/* 
+.navbar--logo {
+    position:absolute;
+    height: 25.35px;
+    width: 82px;
+    left: 30px;
+    top: 22px;
+}
+*/
+
+/* Hero Section*/
+.hero {
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero--text > h2 {
+    padding: 26px;
+    height: 40px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.hero--text > p {
+    margin-left: 26px;
+    width: 290px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222; 
+}
+
+/* Card Section */
+
+.card {
+    padding: 20px;
+    margin-left: 20px;
+    line-height: 12px;
+    padding: 20px;
+    max-width: 296px ;
+}
+
+.card--image {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 0px;
+    z-index: 100000;
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 61px;
+    height: 20x;
+    font-size: 9.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.card--image img {
+    width: 176px;
+    height: 235px;
+    border-radius: 15px;
+}
+
+.card--rating, .card--title {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.rev-count, .country {
+    color: #918E9B;
+}
+.star {
+    width: 14px;
+    height: 14px;
+}
+
+.card--price {
+    font-size: 12px;
+}
+
+.size {
+    font-weight: 300;
+}
