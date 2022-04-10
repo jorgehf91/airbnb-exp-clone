@@ -55,6 +55,12 @@ nav {
 }
 
 /* Card Section */
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
 
 .card {
     padding: 20px;
@@ -62,6 +68,9 @@ nav {
     line-height: 12px;
     padding: 20px;
     max-width: 296px ;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .card--image {
